@@ -4,7 +4,7 @@ import Projects from "@/components/molecules/Projects";
 
 const HomeTemplate = () => {
   return (
-    <main className="flex w-screen h-screen flex-col items-center justify-between gap-12 p-12">
+    <main className="flex w-screen h-screen flex-col items-center justify-between gap-12 px-12 pt-12">
       <Title />
       <About />
       <Projects />
