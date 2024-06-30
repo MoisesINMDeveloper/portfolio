@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+body,
+main,
+article {
   background-color: black;
 }
