@@ -4,7 +4,7 @@ import { Paragraphs as ParagraphsData } from "@/constant/data";
 
 const Projects = () => {
   return (
-    <article className="flex flex-col  items-center  w-screen bgBlack px-12">
+    <article className="flex flex-col  items-center  w-screen bgBlack px-12 mt-[-1rem]">
       <div className="items-left">
         <TitleProjects name="Projects" />
         {ParagraphsData.map(
