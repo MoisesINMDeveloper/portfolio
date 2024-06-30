@@ -3,7 +3,7 @@ import { SocialLinks } from "@/constant/data";
 
 const SocialMedia = () => {
   return (
-    <ul className="flex justify-center space-x-4 p-2 border border-solid-1 border-GreenColor rounded-lg shadow-lg">
+    <ul className="flex justify-center space-x-8 p-2 border border-solid-1 border-GreenColor rounded-lg shadow-lg">
       {SocialLinks.map((link, index) => {
         const IconComponent = link.icon;
         return (
