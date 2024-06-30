@@ -4,6 +4,7 @@
 
 body,
 main,
-article {
+article,
+.bgBlack {
   background-color: black;
 }
