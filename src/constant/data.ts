@@ -42,7 +42,7 @@ export const Paragraphs: {
   skills: { name: string }[];
 }[] = [
   {
-    title: "Trello App: Gestión de Tareas y Anotaciones",
+    title: "Trello App",
     image: [
       { src: "/TrelloAppAppp.png" },
       { src: "/Trello.png" },

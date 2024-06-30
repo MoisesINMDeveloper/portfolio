@@ -19,9 +19,10 @@ interface ImageItem {
 interface ParagraphComponentProps {
   title?: string;
   paragraph: string;
-  src: ImageItem[]; // Ajusta el tipo de 'src' según la estructura de datos
+  src: ImageItem[];
   alt: string;
   skills: Skill[];
+  url?: string;
 }
 
 ___________________________;
