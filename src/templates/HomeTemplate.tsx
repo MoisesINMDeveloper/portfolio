@@ -16,7 +16,7 @@ const HomeTemplate = () => {
           <Footer />
         </div>
       </div>
-      <div className="flex-1 p-4 md:h-full md:p-8 lg:p-12 md:overflow-y-auto">
+      <div className="bg-bgBlack flex-1 p-4 md:h-full md:p-8 lg:p-12 md:overflow-y-auto">
         <Projects />
       </div>
       <div className=" md:hidden  ">
