@@ -13,20 +13,24 @@ const ParagraphComponent: React.FC<ParagraphComponentProps> = ({
   url,
 }) => {
   return (
-    <div className="flex flex-col justify-center gap-4">
-      <div className="flex flex-row items-center">
-        {title && (
-          <h1 className="text-white text-left text-xl pr-4">{title}</h1>
-        )}
-        {url && (
-          <Link className="text-GreenColor" href={url} passHref>
-            <FaExternalLinkAlt size={15} />
-          </Link>
-        )}
+    <div className="flex flex-col md:flex-col justify-between gap-4 p-4 lg:flex-row ">
+      <div className="flex flex-col lg:w-1/2">
+        <div className="flex flex-row items-center">
+          {title && (
+            <h1 className="text-white text-left text-xl pr-4">{title}</h1>
+          )}
+          {url && (
+            <Link className="text-GreenColor" href={url} passHref>
+              <FaExternalLinkAlt size={15} />
+            </Link>
+          )}
+        </div>
+        <p className="text-GrayColor   pt-4 ">{paragraph}</p>
+        <Skills skills={skills} />
       </div>
-      <ImagePort images={src} alt={alt} />
-      <p className="text-GrayColor pt-4">{paragraph}</p>
-      <Skills skills={skills} />
+      <div className="lg:w-1/2">
+        <ImagePort images={src} alt={alt} />
+      </div>
     </div>
   );
 };

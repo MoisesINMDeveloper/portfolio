@@ -15,12 +15,14 @@ const config = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
+        lg: "768px",
       },
     },
     extend: {
       colors: {
         GreenColor: "#00ff2a",
         GrayColor: "#c2c2c2",
+        bgBlack: "#000000",
       },
     },
   },

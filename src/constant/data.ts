@@ -85,7 +85,6 @@ export const Paragraphs: {
       { src: "/Acortador.png" },
       { src: "/AcortadorLink.png" },
       { src: "/shortly.png" },
-      { src: "/banderotas.png" },
     ],
     alt: "Shortly web app images",
     paragraph:

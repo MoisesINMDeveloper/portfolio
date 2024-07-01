@@ -5,23 +5,21 @@ import { Paragraphs as ParagraphsData } from "@/constant/data";
 
 const Projects = () => {
   return (
-    <article className="flex flex-col items-center w-screen bgBlack px-12 pt-[1rem] mt-[-1rem]">
-      <div className="items-left">
-        <TitleProjects name="Projects" />
-        {ParagraphsData.map((item, index) => (
-          <div key={index} className="my-4">
-            <ParagraphComponent
-              title={item.title}
-              paragraph={item.paragraph}
-              src={item.image}
-              alt={item.alt}
-              skills={item.skills}
-              url={item.url}
-            />
-          </div>
-        ))}
-      </div>
-    </article>
+    <div className="flex flex-col items-start w-full md:mt-12 lg:mt-14">
+      <TitleProjects name="Projects" />
+      {ParagraphsData.map((item, index) => (
+        <div key={index} className="my-4 md:my-8 md:flex md:flex-col lg:my-12">
+          <ParagraphComponent
+            title={item.title}
+            paragraph={item.paragraph}
+            src={item.image}
+            alt={item.alt}
+            skills={item.skills}
+            url={item.url}
+          />
+        </div>
+      ))}
+    </div>
   );
 };
 
