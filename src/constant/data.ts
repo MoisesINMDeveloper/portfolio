@@ -30,7 +30,7 @@ export const AboutMe: {
   caption: string;
 } = {
   paragraphs:
-    "Desarrollador Fullstack nacido en Venezuela, con 4 años de experiencia. Mi camino en la tecnología comenzó como frontend developer, donde dominé HTML5, CSS y JavaScript. Luego, profundicé mis conocimientos con TypeScript y ReactJS, especialmente con NextJS, un framework que me permitió crear aplicaciones web dinámicas y eficientes. En el backend, me especialicé en Node.js con ExpressJS  y trabajo con bases de datos relacionales y no relacionales como PostgreSQL y MongoDB. Mi perfil como desarrollador es versátil y sólido, y estoy listo para seguir construyendo cosas increíbles.",
+    "Desarrollador Fullstack nacido en Venezuela, con 3 años de experiencia. Mi camino en la tecnología comenzó como frontend developer, donde dominé HTML5, CSS y JavaScript. Luego, profundicé mis conocimientos con TypeScript y ReactJS, especialmente con NextJS, un framework que me permitió crear aplicaciones web dinámicas y eficientes. En el backend, me especialicé en Node.js con ExpressJS  y trabajo con bases de datos relacionales y no relacionales como PostgreSQL y MongoDB. Mi perfil como desarrollador es versátil y sólido, y estoy listo para seguir construyendo cosas increíbles.",
   caption: "Creo experiencias digitales atractivas y funcionales.",
 };
 export const Paragraphs: {
