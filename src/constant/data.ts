@@ -57,6 +57,7 @@ export const Paragraphs: {
       { name: "NextJS" },
       { name: "Typescript" },
       { name: "Tailwind CSS" },
+      { name: "ExpressJS" },
       { name: "PostgreSQL" },
     ],
   },
