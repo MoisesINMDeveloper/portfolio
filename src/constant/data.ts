@@ -37,6 +37,22 @@ export const Paragraphs: {
   skills: { name: string }[];
 }[] = [
   {
+    title : "Digital Services",
+    image: [
+      {src: "/UjapCafetin.png"}
+    ],
+    alt: "Digital Services Image",
+    paragraph:"Digital Services es una plataforma diseñada para optimizar la gestión de pedidos en negocios de cualquier rubro. Ofrece un carrito de compras, información de pagos y detalles de los productos, con finalización del pedido vía WhatsApp.Cuenta con una base de datos y un panel administrativo que permite gestionar productos, categorías y servicios de delivery. Actualmente en su fase inicial, el proyecto tiene un gran potencial de expansión con futuras mejoras para optimizar su rendimiento y funcionalidad.",
+    url:"https://moisesinmdeveloper.github.io/ujap-cafetin",
+    skills:[
+      {name: "ReactJS" },
+      { name: "Typescript" },
+      { name: "Tailwind CSS" },
+      { name: "ExpressJS" },
+      { name: "PostgreSQL" },
+    ]
+  },
+  {
     title: "Trello App",
     image: [
       { src: "/TrelloAppAppp.png" },
